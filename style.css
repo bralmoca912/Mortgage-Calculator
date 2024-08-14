@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/************* HEADER *************/
+header {
+    background-color: hsl(61, 70%, 52%);
+    height: 70px;
+    display: grid;
+    color: rgba(33, 55, 66);
+}
+
+.navheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(61, 39%, 49%);
+    padding-left: 30px;
+}
+
+.h1Banco {
+    font-size: 40px;
+    width: 200px;
+}
+
+.navheader ul {
+    display: flex;
+    font-weight: bold;
+}
+
+.navheader li a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: rgba(33, 55, 66);
+}
+
+
+
+/************* MAIN *************/
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    color: rgba(130, 147, 154);
+}
+
+.calculator {
+    padding: 30px 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Bloque 0 */
+.bloque0 {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.bloque0 button {
+    text-decoration: underline;
+    border: none;
+    background-color: white;
+    font-size: 17px;
+    color: rgba(130, 147, 154);
+    cursor: pointer;
+}
+
+.bloque0 h1 {
+    color: rgba(33, 55, 66);
+}
+
+/* Bloque 1 */
+.bloque1 div {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.bloque1 div p {
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 6px 0 0 6px;
+    padding: 10px 15px;
+    height: 30px;
+    background-color: rgba(216, 220, 48);
+    color: rgba(45, 59, 65);
+}
+
+.bloque1 div input {
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    height: 26px;
+    border-radius: 0 6px 6px 0;
+    padding: 10px 15px;
+    color: rgba(45, 59, 65);
+    border: 3px solid rgba(216, 220, 48);
+}
+
+/* Bloque 2 */
+.bloque2 {
+    display: flex;
+    gap: 30px;
+}
+
+.bloque2 div div {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border: 2px solid rgba(182, 198, 209);
+    border-radius: 6px;
+}
+
+.bloque2 div div p {
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0 6px 6px 0;
+    padding: 10px 15px;
+    height: 30px;
+    color: rgba(91, 121, 131);
+    background-color: rgba(227, 244, 252);
+}
+
+.bloque2 div div input {
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    height: 26px;
+    padding: 10px 15px;
+    margin: 1px 3px;
+    color: rgba(45, 59, 65);
+    border: none;
+}
+
+/* Bloque 3 */
+.bloque3 div {
+    margin: 20px 0;
+}
+
+.bloque3 div input[type="radio"] {
+    display: none;
+}
+
+.bloque3 div label:before {
+    content: "";
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+    border: 2px solid hsl(220, 60%, 20%);
+    border-radius: 50%;
+}
+
+.bloque3 div label {
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: hsl(220, 45%, 40%);
+    border: 2px solid #8d9b9d;
+    border-radius: 6px;
+}
+
+.bloque3 div input[type="radio"]:checked+label:before {
+    width: 20px;
+    height: 20px;
+    border: 3px solid white;
+    background-color: rgba(219, 221, 47);
+}
+
+.bloque3 div input[type="radio"]:checked+label {
+    background-color: rgba(250, 250, 224);
+    border: 3px solid rgb(233, 240, 132);
+    border-radius: 6px;
+}
+
+/* Bloque 4 */
+.bloque4 button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 30px 0;
+    padding: 20px 55px;
+    height: 65px;
+    font-size: 22px;
+    font-weight: 800;
+    color: rgba(37, 55, 28);
+    background-color: rgba(217, 219, 50);
+    border: none;
+    border-radius: 35px;
+    gap: 20px;
+    cursor: pointer;
+}
+
+
+
+.resultsI {
+    display: flex;
+    align-items: center;
+    padding: 30px 2%;
+    border-radius: 0 25px 25px 100px;
+    background-color: rgba(19, 48, 64);
+    color: hsl(0, 0%, 100%);
+}
+
+.resultsI div {
+    display: grid;
+    justify-items: center;
+    padding: 0 10%;
+    gap: 20px;
+}
+
+.resultsI div p {
+    color: rgba(121, 153, 173);
+}
+
+.hidden {
+    display: none;
+}
+
+.resultsC {
+    padding: 30px 2%;
+    border-radius: 0 25px 25px 100px;
+    background-color: hsl(220, 60%, 14%);
+    color: hsl(0, 0%, 100%);
+}
+
+.resultsC section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10%;
+    gap: 40px;
+}
+
+.resultsC section p {
+    color: rgba(121, 153, 173);
+}
+
+.resultsC2 {
+    background-color: #0e2431;
+    border-top: 4px solid rgb(208, 217, 83);
+    border-radius: 5px;
+    padding: 20px 6%;
+}
+
+.resultMonth {
+    height: 100px;
+    font-size: 70px;
+    font-weight: 600;
+    color: rgba(216, 216, 39);
+    border-bottom: 3px solid #293f4c;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.resultOver {
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+/************* FOOTER *************/
+footer {
+    background-color: hsl(60, 85%, 50%);
+    color: rgba(33, 55, 66);
+    padding-left: 30px;
+    display: grid;
+}
+
+.navfooter {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid; */
+}
+
+.navfooter ol {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.navfooter ol ul li {
+    margin-bottom: 10px;
+}
