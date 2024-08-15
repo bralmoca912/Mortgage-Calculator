@@ -3,7 +3,7 @@
 Proyecto creado en html5, CSS3 y JavaScript
 <br>
 ## Enlace del proyecto
-https://bralmoca912.github.io/Fox-Tunning
+https://bralmoca912.github.io/Mortgage-Calculator/
 <br>
 
 ## Finalidad del proyecto
