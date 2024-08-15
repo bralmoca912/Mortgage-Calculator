@@ -36,7 +36,7 @@ function handleEvent() {
   r0 = (num2 * 0.01);
   r1 = (1 + r0) ** num1;
   resultMonth0 = (num0 * r0 * r1) / (r1 - 1);
-  resultOver0 = resultMonth0 * 12;
+  resultOver0 = resultMonth0 * num1;
   resultOver1 = resultOver0 - num0;
   resultMonth1 = resultOver1 / num1;
 
