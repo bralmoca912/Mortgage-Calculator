@@ -32,6 +32,7 @@ function handleEvent() {
   num2 = parseFloat(document.getElementById('num2').value) || 0;
   payType = parseFloat(document.querySelector('input[name="pago"]:checked')?.value);
 
+  num1 = num1 * 12;
   r0 = (num2 * 0.01);
   r1 = (1 + r0) ** num1;
   resultMonth0 = (num0 * r0 * r1) / (r1 - 1);
