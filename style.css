@@ -46,7 +46,7 @@ header {
 
 
 
-/************* MAIN *************/
+/************* MAIN CUERPO PRINCIPAL *************/
 main {
     display: flex;
     justify-content: space-between;
@@ -272,6 +272,28 @@ main {
     font-weight: 500;
 }
 
+/************* CUERPO INFORMACIÓN *************/
+.mainInformation {
+    margin: 50px 0;
+}
+
+.mainInformation section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.mainInformation ol,
+.mainInformation ul {
+    margin: -10px 0 0 40px;
+}
+
+.mainInformation li {
+    margin-bottom: 10px;
+}
+
+
 
 /************* FOOTER *************/
 footer {
@@ -298,4 +320,9 @@ footer {
 
 .navfooter ol ul li {
     margin-bottom: 10px;
+}
+
+.navfooter ol ul li a {
+    font-weight: 600;
+    color: rgba(33, 55, 66);
 }
