@@ -212,7 +212,7 @@ main {
     align-items: center;
     padding: 30px 2%;
     border-radius: 0 25px 25px 100px;
-    background-color: rgba(19, 48, 64);
+    background-color: hsl(220, 60%, 14%);
     color: hsl(0, 0%, 100%);
 }
 
