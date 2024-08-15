@@ -11,28 +11,24 @@ Mortgage Calculator es una aplicación web desarrollada con HTML, CSS y JavaScri
 <br>
 
 ## Demo
-<a href="https://bralmoca912.github.io/Fox-Tunning" target="_blank">
+
 <h4>Página de inicio e Interfaz de ingreso</h4>
-	<a href="https://ibb.co/7py5ngH"><img src="https://i.ibb.co/xg501my/Mortgage-0.png" alt="Mortgage-0" border="0"></a>
-</a>
+	<a href="https://bralmoca912.github.io/Mortgage-Calculator/"><img src="https://i.ibb.co/xg501my/Mortgage-0.png" alt="Mortgage-0" border="0"></a>
 <br>
 
-<a href="https://bralmoca912.github.io/Fox-Tunning" target="_blank">
+
 <h4>Interfaz con el calculo de los montos totales</h4>
-<img src="https://i.ibb.co/zntvgv2/Mortgage-1.png" alt="Mortgage-1" border="0">
-</a>
+	<a href="https://bralmoca912.github.io/Mortgage-Calculator/"><img src="https://i.ibb.co/zntvgv2/Mortgage-1.png" alt="Mortgage-1" border="0"></a>
 <br>
 
-<a href="https://bralmoca912.github.io/Fox-Tunning" target="_blank">
+
 <h4>Interfaz con el cálculo de solo intereses</h4>
-<img src="https://i.ibb.co/yQ0d4C0/Mortgage-2.png" alt="Mortgage-2" border="0">
-</a>
+	<a href="https://bralmoca912.github.io/Mortgage-Calculator/"><img src="https://i.ibb.co/yQ0d4C0/Mortgage-2.png" alt="Mortgage-2" border="0"></a>
 <br>
 
-<a href="https://bralmoca912.github.io/Fox-Tunning" target="_blank">
+
 <h4>Página de información</h4>
-	<img src="https://i.ibb.co/CsLcJXh/Mortgage-3.png" alt="Mortgage-3" border="0">
-</a>
+	<a href="https://bralmoca912.github.io/Mortgage-Calculator/"><img src="https://i.ibb.co/CsLcJXh/Mortgage-3.png" alt="Mortgage-3" border="0"></a>
 <br>
 
 ## Funcionalidades
