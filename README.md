@@ -1,4 +1,4 @@
-# Fox-Tunning
+# Mortgage-Calculator
 
 Proyecto creado en html5, CSS3 y JavaScript
 <br>
